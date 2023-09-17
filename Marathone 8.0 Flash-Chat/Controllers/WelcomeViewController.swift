@@ -7,29 +7,23 @@
 //
 
 import UIKit
+import CLTypingLabel
 
 class WelcomeViewController: UIViewController {
     
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var titleLabel: CLTypingLabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        typingAnimation()
+        titleLabel.text = "⚡FlashChat"
     }
     
+    @IBAction func registerButtonAction(_ sender: Any) {
+        performSegue(withIdentifier: "fromWelcomeControllerToRegister", sender: nil)
+    }
     
-    //  MARK: - Private Functions
-    
-    private func typingAnimation() {
-        titleLabel.text = ""
-        let tittleText = "⚡FlashChat"
-        var index = 0.0
-        for letter in tittleText {
-            Timer.scheduledTimer(withTimeInterval: 0.5 * index, repeats: false) { timer in
-                self.titleLabel.text?.append(letter)
-            }
-            index += 1
-        }
+    @IBAction func loginButtonPreseed(_ sender: Any) {
+        performSegue(withIdentifier: "fromWelcomeControllerToLogIn", sender: nil)
     }
     
 }

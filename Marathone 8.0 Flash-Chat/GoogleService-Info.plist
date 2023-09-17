@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyD0DhfyFUY213PRjf4LXUcfr9xC8i8SbQY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1097011229998</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.IslamCrew.Marathone-8-0-Flash-Chat</string>
+	<key>PROJECT_ID</key>
+	<string>flash-chat-d2aac</string>
+	<key>STORAGE_BUCKET</key>
+	<string>flash-chat-d2aac.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1097011229998:ios:c71c7cc93e195b0fa836bf</string>
+</dict>
+</plist>

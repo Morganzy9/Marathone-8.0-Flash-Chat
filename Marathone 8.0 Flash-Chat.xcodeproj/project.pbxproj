@@ -16,9 +16,12 @@
 		165FB9D22AB6E70E0095FCAD /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FB9C92AB6E70D0095FCAD /* RegisterViewController.swift */; };
 		165FB9D32AB6E70E0095FCAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165FB9CA2AB6E70D0095FCAD /* Assets.xcassets */; };
 		165FB9D42AB6E70E0095FCAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165FB9CB2AB6E70D0095FCAD /* Main.storyboard */; };
+		165FB9D72AB6F0A40095FCAD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 165FB9D62AB6F0A40095FCAD /* GoogleService-Info.plist */; };
+		B31FA7992AB9BB95E9088F9A /* Pods_Marathone_8_0_Flash_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1070F2D14BA805D847DD3127 /* Pods_Marathone_8_0_Flash_Chat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1070F2D14BA805D847DD3127 /* Pods_Marathone_8_0_Flash_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marathone_8_0_Flash_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		165FB9AD2AB6E6D30095FCAD /* Marathone 8.0 Flash-Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marathone 8.0 Flash-Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		165FB9B02AB6E6D30095FCAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		165FB9B22AB6E6D30095FCAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +33,9 @@
 		165FB9C92AB6E70D0095FCAD /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		165FB9CA2AB6E70D0095FCAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		165FB9CB2AB6E70D0095FCAD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		165FB9D62AB6F0A40095FCAD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2A91095355F9DDE6D7F78367 /* Pods-Marathone 8.0 Flash-Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marathone 8.0 Flash-Chat.debug.xcconfig"; path = "Target Support Files/Pods-Marathone 8.0 Flash-Chat/Pods-Marathone 8.0 Flash-Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		8378953A56E83941B5151956 /* Pods-Marathone 8.0 Flash-Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marathone 8.0 Flash-Chat.release.xcconfig"; path = "Target Support Files/Pods-Marathone 8.0 Flash-Chat/Pods-Marathone 8.0 Flash-Chat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31FA7992AB9BB95E9088F9A /* Pods_Marathone_8_0_Flash_Chat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +55,8 @@
 			children = (
 				165FB9AF2AB6E6D30095FCAD /* Marathone 8.0 Flash-Chat */,
 				165FB9AE2AB6E6D30095FCAD /* Products */,
+				D85E2568380C0E6E47E068CD /* Pods */,
+				38361FF76229FC809AD7F341 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +77,7 @@
 				165FB9CC2AB6E70E0095FCAD /* Views */,
 				165FB9BB2AB6E6D40095FCAD /* LaunchScreen.storyboard */,
 				165FB9CA2AB6E70D0095FCAD /* Assets.xcassets */,
+				165FB9D62AB6F0A40095FCAD /* GoogleService-Info.plist */,
 				165FB9BE2AB6E6D40095FCAD /* Info.plist */,
 			);
 			path = "Marathone 8.0 Flash-Chat";
@@ -92,6 +102,23 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		38361FF76229FC809AD7F341 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1070F2D14BA805D847DD3127 /* Pods_Marathone_8_0_Flash_Chat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D85E2568380C0E6E47E068CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A91095355F9DDE6D7F78367 /* Pods-Marathone 8.0 Flash-Chat.debug.xcconfig */,
+				8378953A56E83941B5151956 /* Pods-Marathone 8.0 Flash-Chat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 165FB9C12AB6E6D40095FCAD /* Build configuration list for PBXNativeTarget "Marathone 8.0 Flash-Chat" */;
 			buildPhases = (
+				BE693DD61B21F382867513E5 /* [CP] Check Pods Manifest.lock */,
 				165FB9A92AB6E6D30095FCAD /* Sources */,
 				165FB9AA2AB6E6D30095FCAD /* Frameworks */,
 				165FB9AB2AB6E6D30095FCAD /* Resources */,
+				1269C9191D1AEF69BFA37981 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,12 +180,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				165FB9D42AB6E70E0095FCAD /* Main.storyboard in Resources */,
+				165FB9D72AB6F0A40095FCAD /* GoogleService-Info.plist in Resources */,
 				165FB9D32AB6E70E0095FCAD /* Assets.xcassets in Resources */,
 				165FB9BD2AB6E6D40095FCAD /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1269C9191D1AEF69BFA37981 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marathone 8.0 Flash-Chat/Pods-Marathone 8.0 Flash-Chat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marathone 8.0 Flash-Chat/Pods-Marathone 8.0 Flash-Chat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marathone 8.0 Flash-Chat/Pods-Marathone 8.0 Flash-Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE693DD61B21F382867513E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marathone 8.0 Flash-Chat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		165FB9A92AB6E6D30095FCAD /* Sources */ = {
@@ -302,6 +374,7 @@
 		};
 		165FB9C22AB6E6D40095FCAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A91095355F9DDE6D7F78367 /* Pods-Marathone 8.0 Flash-Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -330,6 +403,7 @@
 		};
 		165FB9C32AB6E6D40095FCAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8378953A56E83941B5151956 /* Pods-Marathone 8.0 Flash-Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
